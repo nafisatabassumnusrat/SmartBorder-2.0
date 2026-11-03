@@ -1,0 +1,102 @@
+import { User } from '../types';
+
+export const MOCK_USERS: User[] = [
+  {
+    id: 'usr-admin-01',
+    name: 'Dr. Ahmed Rahman',
+    email: 'ahmed.rahman@smartborder.gov.bd',
+    role: 'Super Admin',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    department: 'Directorate General & National Security Cell',
+    agency: 'Border Guard Bangladesh (BGB) & PMO Liaison',
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: 'Active Now',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-exec-02',
+    name: 'Commander Farhana Yasmin',
+    email: 'farhana.yasmin@pmo.gov.bd',
+    role: 'Executive Viewer',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    department: 'National Security Cell & PMO Oversight',
+    agency: "Prime Minister's Office (PMO)",
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: '5m ago',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-analyst-03',
+    name: 'Major Rafiqul Islam',
+    email: 'rafiqul.islam@bgb.gov.bd',
+    role: 'Intelligence Analyst',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    department: 'Geospatial AI & Aerial Reconnaissance Wing',
+    agency: 'BGB Intelligence Directorate',
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: '12m ago',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-reviewer-04',
+    name: 'Senior Inspector Nazmul Huda',
+    email: 'nazmul.huda@customs.gov.bd',
+    role: 'Verification Officer',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80',
+    department: 'Joint Land Port Inspection & TrustPlate Desk',
+    agency: 'National Board of Revenue & BGB Liaison',
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: 'Just now',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-operator-05',
+    name: 'Lt. Commander Tanvir Ahmed',
+    email: 'tanvir.ahmed@coastguard.gov.bd',
+    role: 'Module Operator',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
+    department: 'Riverine Autonomous Vessel Command',
+    agency: 'Bangladesh Coast Guard (BCG)',
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: '18m ago',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-sysadmin-06',
+    name: 'Engr. Shamima Akhter',
+    email: 'shamima.akhter@sob.gov.bd',
+    role: 'System Administrator',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80',
+    department: 'GIS Geodesy & Sovereign Cloud Infrastructure',
+    agency: 'Survey of Bangladesh (SOB)',
+    isDemoAccount: true,
+    status: 'ACTIVE',
+    lastActive: '32m ago',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'usr-auditor-07',
+    name: 'Dr. Mahmudul Hasan',
+    email: 'mahmudul.hasan@ndsa.gov.bd',
+    role: 'Auditor',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    department: 'Sovereign Digital Security & Compliance Directorate',
+    agency: 'National Digital Security Agency (NDSA)',
+    isDemoAccount: true,
+    status: 'OFFLINE',
+    lastActive: '2h ago',
+    twoFactorEnabled: true,
+    dataSource: 'DEMO_DATA'
+  }
+];

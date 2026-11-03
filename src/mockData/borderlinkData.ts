@@ -1,0 +1,85 @@
+import { BorderLinkNode } from '../types';
+
+export const MOCK_BORDERLINK_NODES: BorderLinkNode[] = [
+  {
+    id: 'bl-node-01',
+    nodeName: 'Tamabil Remote BOP Edge Node (BGB-48)',
+    location: 'Tamabil Zero Point, Sylhet',
+    sector: 'Sylhet – Tamabil / Jaflong Sector',
+    connectionType: 'TACTICAL_MESH',
+    status: 'ONLINE',
+    pendingSyncBundles: 3,
+    queuedMegabytes: 48.2,
+    lastSyncTimestamp: '2026-11-03T23:18:42+06:00',
+    bandwidthKbps: 2450,
+    latencyMs: 38,
+    integrityHashOk: true,
+    edgeNpuLoadPct: 54,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'bl-node-02',
+    nodeName: 'Benapole Terminal Fiber Gateway (BGB-49)',
+    location: 'Benapole Cargo Terminal, Jashore',
+    sector: 'Jashore – Benapole Land Port Sector',
+    connectionType: 'FIBER_PRIMARY',
+    status: 'ONLINE',
+    pendingSyncBundles: 0,
+    queuedMegabytes: 0.0,
+    lastSyncTimestamp: '2026-11-03T23:24:10+06:00',
+    bandwidthKbps: 98400,
+    latencyMs: 12,
+    integrityHashOk: true,
+    edgeNpuLoadPct: 78,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'bl-node-03',
+    nodeName: 'Kurigram Isolated Char Outpost (BGB-22)',
+    location: 'Jatrapur Isolated Riverine Island, Kurigram',
+    sector: 'Kurigram – Brahmaputra Char Sector',
+    connectionType: 'SATELLITE_LINK',
+    status: 'INTERMITTENT',
+    pendingSyncBundles: 14,
+    queuedMegabytes: 242.8,
+    lastSyncTimestamp: '2026-11-03T22:30:15+06:00',
+    bandwidthKbps: 640,
+    latencyMs: 540,
+    integrityHashOk: true,
+    edgeNpuLoadPct: 62,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'bl-node-04',
+    nodeName: 'Teknaf Naf Estuary Mast Node (BGB-02)',
+    location: 'Jalia Para Marine Post, Teknaf',
+    sector: "Cox's Bazar – Teknaf / Naf River Sector",
+    connectionType: 'TACTICAL_MESH',
+    status: 'ONLINE',
+    pendingSyncBundles: 5,
+    queuedMegabytes: 72.4,
+    lastSyncTimestamp: '2026-11-03T23:12:00+06:00',
+    bandwidthKbps: 4200,
+    latencyMs: 44,
+    integrityHashOk: true,
+    edgeNpuLoadPct: 69,
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'bl-node-05',
+    nodeName: 'Hili Rail Boundary Standalone Node (BGB-20)',
+    location: 'Hili Railway Zero Line, Dinajpur',
+    sector: 'Dinajpur – Hili Border Sector',
+    connectionType: 'OFFLINE_STANDALONE',
+    status: 'OFFLINE_BUFFERING',
+    pendingSyncBundles: 26,
+    queuedMegabytes: 512.6,
+    lastSyncTimestamp: '2026-11-03T20:45:00+06:00',
+    bandwidthKbps: 0,
+    latencyMs: 0,
+    integrityHashOk: true,
+    edgeNpuLoadPct: 45,
+    dataSource: 'DEMO_DATA'
+  }
+];
+

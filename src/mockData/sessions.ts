@@ -1,0 +1,63 @@
+import { MonitoringSession } from '../types';
+
+export const MOCK_SESSIONS: MonitoringSession[] = [
+  {
+    id: 'ses-sylhet-uav01',
+    sessionCode: 'SES-BD-2026-LIVE-014',
+    title: 'Tamabil-Jaflong Aerial Riverine Perimeter Sweep',
+    type: 'LIVE_SIMULATED',
+    deviceId: 'dev-uav-01-sylhet',
+    deviceCallsign: 'Falcon-01 (Sylhet Sentinel)',
+    sectorName: 'Sylhet – Tamabil / Jaflong Sector',
+    startTime: '2026-11-03T22:15:00+06:00',
+    durationSeconds: 1680,
+    processingStatus: 'ACTIVE_PROCESSING',
+    fps: 30,
+    totalFramesProcessed: 50400,
+    detectionsCount: 8,
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    resolution: '3840 x 2160 (4K UHD)',
+    sensorPayload: 'Dual EO (Sony IMX586 4K) + LWIR Thermal (FLIR Boson 640)',
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'ses-teknaf-fb02',
+    sessionCode: 'SES-BD-2026-REC-088',
+    title: 'Naf River Estuarine Night Interdiction Mission',
+    type: 'RECORDED_REPLAY',
+    deviceId: 'dev-boat-02-naf',
+    deviceCallsign: 'Falcon Boat 02 (Naf Guardian)',
+    sectorName: "Cox's Bazar – Teknaf / Naf River Sector",
+    startTime: '2026-11-03T21:30:00+06:00',
+    endTime: '2026-11-03T23:15:00+06:00',
+    durationSeconds: 6300,
+    processingStatus: 'COMPLETED',
+    fps: 30,
+    totalFramesProcessed: 189000,
+    detectionsCount: 19,
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    resolution: '1920 x 1080 (FHD)',
+    sensorPayload: 'Multibeam Hydrographic Sonar + Mast-Mounted FLIR LWIR',
+    dataSource: 'DEMO_DATA'
+  },
+  {
+    id: 'ses-kurigram-uav02',
+    sessionCode: 'SES-BD-2026-REC-071',
+    title: 'Brahmaputra Charland Seasonal Morphological Survey',
+    type: 'RECORDED_REPLAY',
+    deviceId: 'dev-uav-02-kurigram',
+    deviceCallsign: 'Falcon-02 (Brahmaputra Eye)',
+    sectorName: 'Kurigram – Brahmaputra Char Sector',
+    startTime: '2026-11-03T18:00:00+06:00',
+    endTime: '2026-11-03T19:30:00+06:00',
+    durationSeconds: 5400,
+    processingStatus: 'COMPLETED',
+    fps: 30,
+    totalFramesProcessed: 162000,
+    detectionsCount: 22,
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    resolution: '3840 x 2160 (4K UHD)',
+    sensorPayload: 'LiDAR Terrain Profiler + 4K Optical Orthomosaic Lens',
+    dataSource: 'DEMO_DATA'
+  }
+];
